@@ -1,0 +1,11 @@
+mlx  
+mlx-lm  
+pandas  
+pyarrow  
+huggingface-hub
+huggingface_hub[cli]
+langchain  
+ollama
+bitsandbytes>=0.39.0
+accelerate
+transformers
