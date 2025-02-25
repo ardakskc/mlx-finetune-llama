@@ -1,5 +1,7 @@
 # LLAMA Fine-Tuning with QLORA using MLX Library
 
+Medium Article: https://medium.com/@ardakskc/fine-tuning-llama-with-qlora-using-the-mlx-library-15f1ed3c61fd
+
 In this research, it was investigated how to fine-tune an LLM model using the MLX library. The study specifically focuses on utilizing the QLORA (Quantized Low-Rank Adaptation) technique to efficiently fine-tune the LLaMA model on Apple Silicon hardware. This approach aims to reduce memory consumption while maintaining model performance, making it suitable for resource-constrained environments.
 
 The document covers the entire fine-tuning process, from setting up the MLX environment to converting the trained model to GGUF format for deployment. Additionally, it highlights the challenges encountered during the process, such as compatibility issues when integrating QLORA with MLX-LLAMA and the limitations of the GGUF format regarding dequantization.
