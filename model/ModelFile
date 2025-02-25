@@ -1,0 +1,1 @@
+FROM ../sql_agent/ggml-model-f16.gguf
